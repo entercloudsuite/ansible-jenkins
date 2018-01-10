@@ -1,0 +1,9 @@
+---
+# tasks file for Jenkins
+
+- name: Install tools
+  apt:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - jq
