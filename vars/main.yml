@@ -1,2 +1,4 @@
 ---
 # vars file for Jenkins
+
+jenkins_plugins: ["git", "http_request", "pipeline-utility-steps", "workflow-aggregator", "LDAP"]
