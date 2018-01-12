@@ -4,7 +4,7 @@ Ansible Role: Jenkins
 [![Build Status](https://travis-ci.org/entercloudsuite/ansible-jenkins.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-jenkins)
 [![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.jenkins-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/jenkins)  
 
-Installs jenkins on Ubuntu 16.04 (Xenial)
+Installs Jenkins LTS on Ubuntu 16.04 (Xenial)
 
 ## Requirements
 
