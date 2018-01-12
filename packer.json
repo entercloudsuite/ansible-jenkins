@@ -27,7 +27,7 @@
         }
     ],
     "variables": {
-        "image_name": "ecs-jenkins",
+        "image_name": "ecs-jenkins {{env `TRAVIS_TAG`}}",
         "ecs_flavor":  "e3standard.x2",
         "ecs_region":  "nl-ams1",
         "ecs_tenant":  "{{env `OS_TENANT`}}",
